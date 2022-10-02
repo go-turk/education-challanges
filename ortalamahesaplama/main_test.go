@@ -32,7 +32,7 @@ func TestOrtalamaHesapla(t *testing.T) {
 				finalNot:  50,
 				insiyatif: 0.2,
 			},
-			// (50*0.4)+(50*0.6) = 50
+			// (50*0.4)+(50*0.6) = 50 ortalama hespalama
 			// 50*(1+0.2) = 60
 			want: 50,
 		},
@@ -48,8 +48,8 @@ func TestOrtalamaHesapla(t *testing.T) {
 		{
 			name: "OrtalamaHesapla #4",
 			args: args{
-				vizeNot:   100,
-				finalNot:  20,
+				vizeNot:   100, // 40
+				finalNot:  20,  // 12 = 52
 				insiyatif: 0.5,
 			},
 			want: 65,
