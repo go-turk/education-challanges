@@ -19,7 +19,7 @@ func OrtalamaHesapla(vizeNot, finalNot int, insiyatif float64) float64 {
 		ortalama = 65
 		return ortalama
 	} else if ortalama > 65 {
-		return ortalama
+		return ortalama // test
 
 	}
 
